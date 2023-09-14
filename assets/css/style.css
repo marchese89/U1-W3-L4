@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3em;
+}
+
+.container {
+  background: linear-gradient(rgb(56, 167, 169), rgb(52, 125, 204));
+  height: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  padding: 1em 0;
+  color: white;
+}
+
+h2 {
+  font-size: 1.3em;
+  padding: 1em 0;
+  color: rgb(8, 148, 22);
+}
+
+#form-div {
+  width: 32vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+label {
+  color: brown;
+}
+
+input[type="number"] {
+  display: inline-block;
+  height: 1.5em;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  border: 0;
+}
+
+input:focus {
+  border: 0;
+}
+
+button,
+.task-div > button {
+  border: 0;
+  display: inline-block;
+  height: 1.9em;
+  padding: 0.5em;
+  margin: 0.5em;
+  color: white;
+  background-color: brown;
+  border-radius: 5px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.tbl-elem {
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid #fff;
+  line-height: 2.5;
+}
+
+#table {
+  width: 30rem;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: bisque;
+  border-radius: 7px;
+}
+
+main {
+  opacity: 0;
+}
+
+.mini-table {
+  width: 30rem;
+  margin: 2rem;
+  display: inline-block;
+  background-color: rgb(138, 43, 226);
+  border-radius: 7px;
+  padding: 1em;
+}
+
+.selected {
+  background-color: orangered;
+}
